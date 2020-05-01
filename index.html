@@ -27,7 +27,7 @@
             <div class="col-md-12">
                 <nav class="navbar fixed-top" style="background:#00c85159; list-style-type: none;">
                     <!-- logo image -->
-                    <a class="navbar-brand mr-auto" href="#" style="padding-left: 20%;">
+                    <a class="navbar-brand mr-auto" href="#" style="padding-left:5%;">
                         <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" class="rounded-circle"
                             style="height: 70px; padding-right: 30%;" alt="avatar image"> </a>
                     <li class="nav-item">
@@ -58,13 +58,12 @@
         <!-- video background -->
         <div class="row">
             <div class="col-md-12 video" id="home">
-                <video class="video" width="100%" autoplay muted loop style="z-index: -1;">
+                <video class="video" width="70%" autoplay loop style="z-index: -1;">
                     <source src="/vid/videoplayback.mp4" " type=" video/mp4"> </video> </div> </div> <section>
                     <div class="container" id="about">
                         <div class="row text-center mb-5">
                             <div class="col-12">
-                                <p class="about" id="about">ABOUT US</p>
-                                <a class="parag">WHO WE ARE</a>
+                                <a class="parag">About Us</a>
                                 <hr class="bg-warning dg">
 
                             </div>
@@ -115,7 +114,7 @@
                         </div>
 
                     </div>
-                    <button class="btn animated bounceIn delay-2s">Discover more</button>
+        
                     </section>
 
                     <div class="container sm" style="margin-top: 30px;" id="testimony">
@@ -268,148 +267,106 @@
 
 
                                 <!-- Contact Us form -->
-                                <form action="info.php" method="POST">
-                                    <div class="row">
-                                        <!--Grid column-->
-                                        <div class="col-md-9 mb-md-0 mb-5">
-                                            <!--Grid row-->
-                                            <div class="row">
+                                <div class="row">
+                                    <!--Grid column-->
+                                    <div class="col-md-9 mb-md-0 mb-5">
+                                        <!--Grid row-->
+                                        <div class="row">
 
-                                                <!--Grid column-->
-                                                <div class="col-md-6">
-                                                    <div class="md-form mb-0">
-                                                        <input type="text" id="name" name="name" class="form-control"/>
-                                                        <label for="name" class="">Name</label>
-                                                    </div>
-                                                </div>
-                                                <!--Grid column-->
-
-                                                <!--Grid column-->
-                                                <div class="col-md-6">
-                                                    <div class="md-form mb-0">
-                                                        <input type="text " id="email" name="email"
-                                                            class="form-control"/>
-                                                        <label for="email" class="">Email</label>
-                                                    </div>
-                                                </div>
-                                                <!--Grid column-->
-
-                                            </div>
-                                            <!--Grid row-->
-
-                                            <!--Grid row-->
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="md-form mb-0">
-                                                        <input type="text" id="subject" name="subject"
-                                                            class="form-control"/>
-                                                        <label for="subject" class="">Subject</label>
-                                                    </div>
+                                            <!--Grid column-->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="name" name="name" class="form-control">
+                                                    <label for="name" class="">Name</label>
                                                 </div>
                                             </div>
-                                            <!--Grid row-->
+                                            <!--Grid column-->
 
-                                            <!--Grid row-->
-                                            <div class="row">
-
-                                                <!--Grid column-->
-                                                <div class="col-md-12">
-
-                                                    <div class="md-form">
-                                                        <textarea type="text" id="message" name="message" rows="2"
-                                                            class="form-control md-textarea"></textarea>
-                                                        <label for="message">Your Message</label>
-                                                    </div>
-
+                                            <!--Grid column-->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" class="form-control"  id="email" name="email">
+                                                    <label for="email" class="">Email</label>
                                                 </div>
                                             </div>
-                                            <!--Grid row-->
+                                            <!--Grid column-->
 
-                                </form>
+                                        </div>
+                                        <!--Grid row-->
 
-                                <div class="text-center text-md-left">
-                                    <a class="btn btn-primary" <input type="submit"/>;">SEND
-                                        MESSAGE</a>
+                                        <!--Grid row-->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" class="form-control" id="subject" name="subject">
+                                                    <label for="subject" class="text">Subject</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Grid row-->
+
+                                        <!--Grid row-->
+                                        <div class="row">
+
+                                            <!--Grid column-->
+                                            <div class="col-md-12">
+
+                                                <div class="md-form">
+                                                    <textarea type="text" id="message" name="message" rows="2"
+                                                        class="form-control md-textarea message"></textarea>
+                                                    <label for="message">Your Message</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!--Grid row-->
+
+                                        <div class="text-center">
+                                            <a href="#" class="btn btn-primary send-btn">SEND MESSAGE</a>
+
+                                            </form>
+
+                                        </div>
+                                        <div class="status"></div>
+                                    </div>
+            
+
+                                    <!--Grid column-->
+                                    <div class="col-md-3 text-center">
+                                        <ul class="list-unstyled mb-0">
+
+                                            <li><i class="fas fa-phone mt-4 fa-2x"></i> <br>
+                                                <a href="tel:+2349020337673">+ 234 902 033 7673</a>
+                                            </li>
+
+                                            <li><i class="fas fa-envelope mt-4 fa-2x"></i> <br>
+                                                <a
+                                                    href="mailto:MAXupwithCELLgevity@gmail.com">MAXupwithCELLgevity@gmail.com</a>
+                                            </li>
+                                            <li><i class="fas fa-clock mt-4 fa-2x"></i> <br>
+                                                <a href="">WORKING HOURS:
+                                                    Monday - Sunday 24hours</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--Grid column-->
+
                                 </div>
-                                <div class="status"></div>
+
+                            </section>
+                            <!--Section: Contact v.2-->
                         </div>
-                        <!--Grid column-->
-
-                        <!--Grid column-->
-                        <div class="col-md-3 text-center">
-                            <ul class="list-unstyled mb-0">
-
-                                <li><i class="fas fa-phone mt-4 fa-2x"></i> <br>
-                                    <a href="tel:+2349020337673">+ 234 902 033 7673</a>
-                                </li>
-
-                                <li><i class="fas fa-envelope mt-4 fa-2x"></i> <br>
-                                    <a href="mailto:MAXupwithCELLgevity@gmail.com">MAXupwithCELLgevity@gmail.com</a>
-                                </li>
-                                <li><i class="fas fa-clock mt-4 fa-2x"></i> <br>
-                                    <a href="">WORKING HOURS:
-                                        Monday - Sunday 24hours</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!--Grid column-->
-
                     </div>
+                </div>
 
             </section>
-            <!--Section: Contact v.2-->
-        </div>
-    </div>
-    </div>
 
-    </section>
-
-    <!-- Material form subscription -->
-    <div class="container mt-5">
-
-        <h5 class="card-header info-color white-text text-center py-4">
-            <strong>SUBSCRIBE TO OUR NEWSLETTER</strong>
-        </h5>
-
-        <!--Card content-->
-        <div class="card-body px-lg-5">
-
-            <!-- Form -->
-            <form class="text-center" style="color: #757575;" action="#!">
-
-                <p>Join our mailing list. We write rarely, but only the best content.</p>
-                <!-- Name -->
-                <div class="md-form mt-3">
-                    <input type="text" id="materialSubscriptionFormPasswords" class="form-control">
-                    <label for="materialSubscriptionFormPasswords">Name</label>
-                </div>
-
-                <!-- E-mai -->
-                <div class="md-form">
-                    <input type="email" id="materialSubscriptionFormEmail" class="form-control">
-                    <label for="materialSubscriptionFormEmail">E-mail</label>
-                </div>
-
-                <!-- Sign in button -->
-                <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect"
-                    type="submit">Sign in</button>
-
-            </form>
-            <!-- Form -->
-            <div class="container text-center ">
-                <p>or sign up with:</p>
-
-                <a href="https://m.facebook.com/maxupcellgevity/" target="_blank"> <i><i
-                            class="fab fa-facebook-f"></i></i> </a>
-
-                <hr>
-
+            <div class="container text-center" style="padding-top: 100px;padding-bottom: 50px;">
+                <h5>Follow Us:</h5>
+                <a href="https://m.facebook.com/maxupcellgevity/" target="_blank">
+                    <i class="fab fa-facebook-f"></i> </a>
             </div>
-            <!-- Terms of service -->
-            <p>By clicking
-                <em>Sign up</em> you agree to our
-                <a href="" target="_blank">terms of service</a>
-            </p>
+
             <div class="container text-center">
                 <span class="w3-hover-text-purple">Designed by Bukola <span class="w3-hover-text-blue"
                         style="padding: 50px;">Copyright 2020</span> </span>

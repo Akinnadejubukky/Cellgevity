@@ -1,0 +1,23 @@
+{
+  "name": "CELLGEVITY",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akinnadejubukky/Cellgevity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akinnadejubukky/Cellgevity/issues"
+  },
+  "homepage": "https://github.com/Akinnadejubukky/Cellgevity#readme",
+  "dependencies": {
+    "mandrill": "^0.1.0"
+  }
+}

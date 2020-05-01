@@ -22,8 +22,8 @@ body {
 
 .parag {
   text-align: center;
-  font-size: 40px;
-  padding: 50px 0px;
+  font-size: 30px;
+  padding-top: 50px;
   width: 70px;
 }
 
@@ -45,6 +45,10 @@ body {
   color: white;
   margin-left: 40%;
   margin-top: 70px;
+}
+
+#demo  {
+  text-align: center;
 }
 
 .sm {
@@ -163,4 +167,9 @@ body {
 
 .mb-5 {
   color: rgb(25, 121, 211);
+  padding-top: 50px;
+}
+
+.form-control {
+  padding-top: 50px;
 }
