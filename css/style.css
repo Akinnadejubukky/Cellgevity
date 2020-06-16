@@ -919,12 +919,19 @@ header {
 
 @media screen and (max-width:1200px) {
     .top-left-text {
-        padding-left: 1rem
+        padding-left: 1rem;
     }
 }
 
 /* Responsiveness */
 @media screen and (max-width:800px) {
+    #exit {
+        margin-bottom: 1rem;
+        padding-top: 3rem;
+    }
+    #request-btn {
+        margin-bottom: 1rem;
+    }
     .whole-vid {
         flex-direction: column;
         padding: 1rem;
