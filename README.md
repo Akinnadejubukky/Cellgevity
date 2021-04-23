@@ -1,8 +1,8 @@
 ## Cellgevity
 This is a landing page for a healthcare product; It is used for a google ads.
 
-#Technologies
+```Technologies```
 JavaScript, Css3, HTML5
 
-#Tools
+```Tools```
 Git/Github
